@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(213, 127, 127);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+}
+.card {
+    display: flex;
+    width: 900px;
+    height: auto;
+    background-color: antiquewhite;
+    border-radius: 2px;
+}
+.titulo, .descripcion{
+    padding: 20px;
+    text-align: center;
+}
+.titulo a{
+    position: relative;
+    display: block;
+}
+.titulo img{
+    margin: 40px 50px;
+}
+.titulo h2{
+    color: darkred;
+    text-align: center;
+}
+.titulo {
+    color: rgb(190, 156, 92);
+}
+
+.titulo-it {
+    color: rgb(232, 212, 250);
+    text-decoration: underline;
+    text-align:left;   
+}
+
+li{
+     list-style-type:none;
+     text-align: justify;
+    }
